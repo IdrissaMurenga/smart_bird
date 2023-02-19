@@ -1,0 +1,379 @@
+/* GENERAL */
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    padding: 1rem;
+    gap: 1rem;
+}
+.primary_font{
+    font-family: 'Roboto', sans-serif;
+}
+.secondary_font{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.primary_bg_color{
+    background-color: #F36F54;
+}
+.secondary_bg_color{
+    background-color: #000;
+}
+p{
+    font-family: 'roboto',sans-serif;
+    line-height: 1.7;
+    color: #666666;
+}
+
+.section1,.section3
+/*HEADER START HERE*/
+header{
+    padding: 1rem;
+}
+.header_img{
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1.5rem;
+}
+.svg{
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    border: 1px solid #000;
+    border-color: #0000001a;
+    background-color: #fff;
+}
+.header_list{
+    padding: 1rem 35px 2rem 35px;
+}
+.header_list > *{
+    padding-block: 1.5rem;
+}
+.display_list{
+    display: none;
+}
+.header_link{ 
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+.header_link:hover{
+    color: #F36F54;
+}
+.header_btn{
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+.btn{
+    font-size: 15px;
+    padding: 12px 45px;
+    border: 1px solid transparent;
+    border-radius: 50rem;
+    color: #fff;
+}
+/*===============================================*/
+/* MAIN START HERE */
+
+/* SECTION 1 */
+h1{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #888888;
+}
+.section1-p{
+    margin-bottom: 2rem;
+}
+.section1_link{
+    padding: 1rem 3rem;
+    border-radius: 50rem;
+    color: #fff;
+}
+.section1{
+    position: relative;
+}
+.section1::after,.section3::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 8px solid #F36F54;
+    border-radius: 50%;
+    top: 55rem;
+    left: -1rem;
+    opacity: .5;
+}
+
+
+/* SECTION 2 */
+.section2::after{
+    content: "";
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #ebebff;
+    opacity: .5;
+    position: absolute;
+    top: 76rem;
+    left: 4.375rem;
+}
+.section2{
+    margin:7rem 0 3rem 0;
+    text-align: center;
+}
+.section2-img{
+    margin-inline: auto;
+}
+.section2-p{
+    padding-bottom: 3rem;
+}
+h2{
+    font-size: 1.625rem;
+}
+h3{
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+.section2-h3,.section2-h2{
+    padding-block: 1rem;
+}
+h2,h3{
+    font-weight: 700;
+    color: #555555;
+}
+.card{
+    padding: 1rem;  
+}
+.card,.section3{
+    background-color: #f8f8ff;
+}
+
+
+/* SECTION 3 */
+.section3{
+    position: relative;
+    padding-block: 3rem;
+}
+.section3_header{
+    font-size: 2rem;
+    width: 20rem;
+}
+.section3_btn{
+    margin-top: 2rem;
+}
+.section3::after{
+    top: 20rem;
+}
+
+
+/* SECTION 4 */
+.section4-header,.section5-header{
+    padding: 1rem;
+    text-align: center;
+}
+.section4-h3{
+    padding-block: 2rem;
+}
+.section4-p2{
+    padding-bottom: 1rem;
+}
+
+.section4-p3{
+    font-size: 0.85rem;
+}
+.section4-card-h2{
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.section4-card > *{
+    padding: 1rem 2rem;
+}
+
+/*SECTION 5 */
+.section5-card{
+    margin: 1remv;
+    padding: 1rem;
+    background-color: #f2f2ff;
+    color: #666666;
+}
+.card1{
+    background-color: #f8f8ff;
+}
+h4{
+    font-size: 2rem;
+}
+.h4{
+    color: #555555;
+}
+h4,h5{
+  font-weight: 700; 
+}
+h4,h6,h5{
+  text-align: center;  
+  padding-block: 1rem;
+}
+.section5_list > *{
+    font-size: 16px;
+    color: #666666;
+    padding-block: 0.3rem;
+}
+.section5-btn{
+    margin-top: 2rem;
+    margin-inline: 5rem;
+}
+.section5-h6{
+    font-size: 13px;
+}
+
+/*===============================================*/
+/* FOOTER */
+footer{
+    padding: 2rem;
+    margin-block: 2rem;
+    padding-block: 2rem;
+    background-color: #F8F8FF;
+}
+.footer{
+    gap: 4rem;
+}
+.footer_header{
+    font-size: 20px;
+    color: #888888;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+}
+.footer_p{
+    font-size: 15px;
+}
+.footer_link{
+    color: #666666;
+    
+}
+.footer_list > *{
+    padding-block: 0.7rem;
+}
+input{
+    width: 10rem;
+    height: 2rem;
+}
+
+.bgCarrier{
+    position: relative;
+    top: 1rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width:760px) and (max-width:975px){
+
+    /* HEADER START */
+    header{
+        position: relative;
+    }
+    .header_logo{
+        margin-top: 1rem;
+    }
+    .section1::after{
+        top: 37rem;
+        left: -1rem;
+        opacity: .5;
+    }
+    .display_list{
+        display: flex;
+        position: absolute;   
+        gap: 3rem;
+        top: -1rem;
+        left: 15.8rem;
+    }
+    .svg{
+        display: none;
+    }
+    .section1{
+        margin: 2rem;
+    }
+    .section2::after{
+        top: 52rem;
+        left: 6rem;
+    }
+    .section5-cards{
+        margin: 2rem;
+    }
+    .section5-card{
+        margin-bottom: 2rem;
+    }
+    .section5-btn{
+        margin-inline: 16rem;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px , 1fr));
+    }
+
+    /* =================================== */
+}
+
+@media (min-width:980px){
+    .container{
+        width: 1024px;
+        margin-inline: auto;
+    }
+
+    /* HEADER START */
+    header,.display_list,.footer{
+        display: flex;
+    }
+    header{
+        gap: 4rem;
+    }
+    .svg{
+        display: none;
+    }
+    .display_list{
+        gap: 1.5rem;
+    }
+    .header_list{
+        padding:0;
+    }
+    .header_btn{
+        margin-top: 0.6rem;
+    }
+
+    /* =================================== */
+    .section1::after{
+        top: 33rem;
+        left: -1rem;
+        opacity: .5;
+    }
+    .section2::after{
+        top: 46rem;
+        left: 20rem;
+    }
+    .section3img{
+        margin-top: -12rem;
+    }
+    .section3_txt{
+        padding-left: 5rem;
+    }
+
+    .section5-cards,
+    .section4-card{
+        display: grid;
+    }
+    .section4-card{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .section5-cards{
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 2rem;
+    }
+    .section5-btn{
+        margin-inline: 4rem;
+    }
+    .footer_p{
+        width: 12rem;
+    }
+}
